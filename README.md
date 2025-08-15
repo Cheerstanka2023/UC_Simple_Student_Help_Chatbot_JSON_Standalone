@@ -18,6 +18,15 @@ You can download the full project as a ZIP file here:
 [➡️ Download Student_Help_Chatbot_JSON_Standalone.zip](https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_JSON_Standalone/raw/main/Student_Help_Chatbot_JSON_Standalone.zip)
 
 ---
+## ▶️ How to Run
+1. Download the ZIP file from the link above.  
+2. Extract the contents of the ZIP file to a folder on your computer.  
+3. Open the file **`index.html`** in any modern web browser (Chrome, Edge, Firefox).  
+4. Start chatting with the UC Simple Student Help Chatbot! 🎉  
+
+---
+
+✅ No installation, servers, or external dependencies are required. 
 
 ## ⚙️ Installation & Setup
 1. **Clone this repository**:
