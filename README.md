@@ -31,19 +31,19 @@ You can download the full project as a ZIP file here:
 ## ⚙️ Installation & Setup
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_JSON_Standalone.git
+     git clone https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_JSON_Standalone.git
 
 2. /Open the project folder:
-   cd UC_Simple_Student_Help_Chatbot_AWSLexV2
+    cd UC_Simple_Student_Help_Chatbot_AWSLexV2
 
 3. Run locally:
-   Open index.html in your browser 
-   Start chatting with the standalone bot
+    Open index.html in your browser 
+    Start chatting with the standalone bot
 
 🛠️ Tech Stack
 
-  JavaScript (HTML/CSS) – Front-end interface
-  JSON – Predefined intents and responses
+   JavaScript (HTML/CSS) – Front-end interface
+   JSON – Predefined intents and responses
 
 📂 Project Structure
 
