@@ -40,35 +40,35 @@ You can download the full project as a ZIP file here:
     Open index.html in your browser 
     Start chatting with the standalone bot
 
-🛠️ Tech Stack
+ 🛠️ Tech Stack
 
-   JavaScript (HTML/CSS) – Front-end interface
-   JSON – Predefined intents and responses
+    JavaScript (HTML/CSS) – Front-end interface
+    JSON – Predefined intents and responses
 
-📂 Project Structure
+ 📂 Project Structure
 
-  /project-root
-  │
-  ├── index.html # Front-end UI
-  ├── style.css # Chatbot UI styling
-  ├── script.js # JavaScript for chatbot functionality
-  ├── intents.json # JSON data for responses
-  ├── screenshots/ # Project screenshots
-  └── README.md # Project documentation
+   /project-root
+   │
+   ├── index.html # Front-end UI
+   ├── style.css # Chatbot UI styling
+   ├── script.js # JavaScript for chatbot functionality
+   ├── intents.json # JSON data for responses
+   ├── screenshots/ # Project screenshots
+   └── README.md # Project documentation
 
-📷 Screenshots
+ 📷 Screenshots
 
-  Chatbot UI
-  JSON Intents
+   Chatbot UI
+   JSON Intents
   
-👨‍🎓 Author
-  Name: Tanka Chapagain
-  University: University of the Cumberlands
-  Course: Capstone Project
+ 👨‍🎓 Author
+   Name: Tanka Chapagain
+   University: University of the Cumberlands
+   Course: Capstone Project
 
-📜 License
+ 📜 License
 
-This project is for academic purposes only. Not intended for production use without further enhancement.
+ This project is for academic purposes only. Not intended for production use without further enhancement.
 
 
 
