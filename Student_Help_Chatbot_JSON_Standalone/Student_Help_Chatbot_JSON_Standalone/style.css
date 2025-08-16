@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    max-width: 450px;
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-header {
+    background: #0078d4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.chat-buttons {
+    display: flex;
+    justify-content: space-around;
+    background: #f9f9f9;
+    padding: 10px;
+}
+
+.chat-buttons button {
+    background: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.chat-buttons button:hover {
+    background: #005fa3;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-message {
+    background: #e0f0ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    align-self: flex-start;
+}
+
+.user-message {
+    background: #d1ffd1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.chat-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.chat-input button {
+    background: #0078d4;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.clear-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.clear-btn:hover {
+    background: #cc0000;
+}
+
+.chat-container {
+    max-width: 450px;
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 90vh;  /* Limit container height */
+}
+
+.chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto; /* Internal scroll */
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}

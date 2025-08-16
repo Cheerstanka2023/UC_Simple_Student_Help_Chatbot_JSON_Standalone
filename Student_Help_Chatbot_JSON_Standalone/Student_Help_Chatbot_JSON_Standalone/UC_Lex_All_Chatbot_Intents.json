@@ -1,0 +1,144 @@
+[
+    {
+        "intentName": "UC_Intent_RegistrationHelp",
+        "sampleUtterances": [
+            "Registration help",
+            "Can you help me with registration?",
+            "I want to register for classes",
+            "How do I register for courses?",
+            "Class registration assistance",
+            "Where do I register for the next semester?",
+            "Guide me through course registration",
+            "I want to sign up for classes",
+            "Register for next term",
+            "How to register for courses?",
+            "How do I enroll in classes?",
+            "Course registration help",
+            "I want to start registration",
+            "Help me with enrollment",
+            "I need class registration info",
+            "Assist me with course enrollment",
+            "Registration Helpt"
+        ],
+        "closingResponse": "Thank you for asking about course registration! To assist you better, could you please specify which term you are interested in — Spring, Summer, or Fall registration? Once I know the term, I can provide the exact registration dates and instructions for you. \ud83d\ude0a"
+    },
+    {
+        "intentName": "UC_Intent_ITSupport",
+        "sampleUtterances": [
+            "How do I get technical help at UC?",
+            "Where do I find UC IT support?",
+            "Can you help me contact IT help desk?",
+            "I need help with UC network or portal access.",
+            "What IT support services are available?"
+        ],
+        "closingResponse": "\ud83d\udda5\ufe0f UC IT Support Services \u2014 University of the Cumberlands\n\ud83d\udc49 For general issues, visit the IT Help Desk portal or email: it@ucumberlands.edu\n\ud83d\udc49 Phone: 606-539-4197\n\ud83d\udc49 Need help with iLearn or Canvas? Email: ilearn@ucumberlands.edu or call: 877-633-9146\n\ud83d\udc49 For Wi-Fi access, connect to \u201cUC-PATRIOT-WIFI\u201d and register your device at ucumberlands.edu/devices\n\ud83d\udc49 For remote desktop assistance, visit Remote Assistance\n\ud83d\udc49 Campus tech support is available in the Luecker Building basement:\n\u2022 Sunday: 3 PM\u2013Midnight\n\u2022 Mon\u2013Thu: 8 AM\u2013Midnight\n\u2022 Friday: 8 AM\u2013Noon"
+    },
+    {
+        "intentName": "UC_Intent_LoginHelp",
+        "sampleUtterances": [
+            "How do I reset my UC password?",
+            "I forgot my password; how do I change it?",
+            "How to set up my UC student account?",
+            "Can you help me restore my password?",
+            "How do I create a new University of the Cumberlands login?"
+        ],
+        "closingResponse": "\ud83d\udd10 UC Account & Password Assistance \ud83d\udc49 To reset your password, visit the UC Account Sign-Up / Reset page and select \u201cStudent Candidate.\u201d Enter your A-number, birth city, and birth year, then click \u201cSubmit.\u201d Proceed to set a new password \u2014 must be 8\u201320 characters long and include: \u2022 Uppercase \u2022 Lowercase \u2022 Number \u2022 Special character. Once submitted, your password syncs across: \u2022 Student portal \u2022 Campus email \u2022 Google \u2022 Canvas \u2022 myUC services. \ud83d\udce9 If you\u2019ve never received an account, visit the Account Sign-Up form \ud83d\udcec Still need help? Email: it@ucumberlands.edu or visit the IT Help Desk in Luecker Building basement \ud83d\udd52 Support Hours: \u2022 Sunday: 3 PM\u2013Midnight \u2022 Mon\u2013Thu: 8 AM\u2013Midnight \u2022 Friday: 8 AM\u2013Noon"
+    },
+    {
+        "intentName": "FallbackIntent",
+        "sampleUtterances": [],
+        "closingResponse": "\ud83e\udd16 I'm sorry, I didn't quite get that. Could you please rephrase your question?\nYou can ask about:\n\ud83d\udc49 Course registration (Fall, Spring, Summer)\n\ud83d\udc49 Class schedules\n\ud83d\udc49 IT support\n\ud83d\udc49 Password reset\n\ud83d\udc49 Library services and more."
+    },
+    {
+        "intentName": "UC_Intent_SummerRegistration",
+        "sampleUtterances": [
+            "When can I register for Summer 2026?",
+            "What\u2019s the last day to enroll in summer classes?",
+            "Is late registration allowed in summer term?",
+            "Tell me the Summer 2026 registration deadline.",
+            "When does Summer class registration close?"
+        ],
+        "closingResponse": "\ud83d\udcda Summer 2026 Course Registration \u2014 University of the Cumberlands\n\ud83d\udc49 Summer registration generally opens in early April 2026\n\ud83d\udc49 Registration usually closes just before the first day of classes: May\u202f4, 2026\n\ud83d\udc49 All add/drop or enrollment updates should be completed before May 4\n\ud83d\udc49 Use the MyUC student portal to register and view course availability\n\ud83d\udc49 For questions, email registrar@ucumberlands.edu or call (606)\u202f539\u20114316."
+    },
+    {
+        "intentName": "UC_Intent_FallRegistration",
+        "sampleUtterances": [
+            "When does Fall 2025 registration open?",
+            "What is the last date to register for Fall 2025?",
+            "Can I still register for Fall classes?",
+            "Fall registration deadline?",
+            "When is UC Fall course registration?"
+        ],
+        "closingResponse": "\ud83d\udcda Fall 2025 Course Registration \u2014 University of the Cumberlands\n\ud83d\udc49 Fall registration typically opens mid\u2011June 2025\n\ud83d\udc49 Enrollment remains available up until the first day of classes: August\u202f25, 2025\n\ud83d\udc49 You must finalize course selections and complete any add/drop actions before August 25\n\ud83d\udc49 Register early through your MyUC student portal to secure preferred classes\n\ud83d\udc49 For assistance or questions, contact the Registrar\u2019s Office at registrar@ucumberlands.edu or (606)\u202f539\u20114316"
+    },
+    {
+        "intentName": "UC_Intent_SpringRegistration",
+        "sampleUtterances": [
+            "When does Spring 2026 registration open?",
+            "What is the last day to register for Spring 2026?",
+            "How late can I enroll in Spring classes?",
+            "Tell me Spring 2026 registration cutoff.",
+            "When does registration for Spring 2026 close?"
+        ],
+        "closingResponse": "\ud83d\udcda Spring 2026 Course Registration \u2014 University of the Cumberlands\n\ud83d\udc49 Spring registration typically opens in late November 2025\n\ud83d\udc49 You can register up until the first day of classes: January\u202f12, 2026\n\ud83d\udc49 Add/drop actions must be completed before January 12\n\ud83d\udc49 Use your MyUC student portal to register early and avoid missing spots\n\ud83d\udc49 Need help? Contact registrar@ucumberlands.edu or call (606)\u202f539\u20114316"
+    },
+    {
+        "intentName": "UC_Intent_SummerSchedule",
+        "sampleUtterances": [
+            "When does Summer 2026 semester start?",
+            "What holidays are in Summer 2026?",
+            "When are Summer 2026 finals?",
+            "When is Juneteenth in summer term?",
+            "What\u2019s the final exam week for Summer 2026?"
+        ],
+        "closingResponse": "\ud83d\udcc5 Summer\u202f2026 Term \u2014 University of the Cumberlands\n\ud83d\udc49 Classes begin on May\u202f4, 2026\n\ud83d\udc49 University closed for Memorial Day on May\u202f25, 2026\n\ud83d\udc49 University closed for Juneteenth on June\u202f19, 2026\n\ud83d\udc49 University closed for Independence Day on July\u202f3, 2026\n\ud83d\udc49 Last day of classes: August\u202f14, 2026\n\ud83d\udc49 Graduation date: August\u202f15, 2026 (ceremony held in May) \ud83c\udf93"
+    },
+    {
+        "intentName": "UC_Intent_SpringSchedule",
+        "sampleUtterances": [
+            "When does Spring 2026 start?",
+            "Tell me Spring 2026 class dates",
+            "Spring 2026 semester schedule please",
+            "When are Spring 2026 finals?",
+            "What\u2019s the Spring 2026 calendar?"
+        ],
+        "closingResponse": "\ud83d\udcc5 Spring\u202f2026 Semester \u2014 University of the Cumberlands\n\ud83d\udc49 Classes begin on January\u202f12, 2026\n\ud83d\udc49 University closed for Martin Luther King Jr. Day on January\u202f19, 2026\n\ud83d\udc49 Midterm grades due by February\u202f27, 2026\n\ud83d\udc49 Spring Break: March\u202f2\u20136, 2026\n\ud83d\udc49 University closed on April\u202f3, 2026 (Good Friday)\n\ud83d\udc49 Last day of classes: April\u202f24, 2026\n\ud83d\udc49 Final exams: April\u202f27\u2013May\u202f1, 2026\n\ud83d\udc49 Commencement/Hooding: May\u202f1, with graduation ceremonies on May\u202f2, 2026 \ud83c\udf93"
+    },
+    {
+        "intentName": "UC_Intent_FallSchedule",
+        "sampleUtterances": [
+            "When does the Fall 2025 semester start?",
+            "What is the midterm deadline for Fall 2025?",
+            "When are the final exams in Fall 2025?",
+            "What days is the university closed during Fall 2025?",
+            "Tell me Fall 2025 dates."
+        ],
+        "closingResponse": "\ud83d\udcc5 Fall 2025 Semester \u2014 University of the Cumberlands\n\ud83d\udc49 Classes begin on August 25, 2025\n\ud83d\udc49 University closed for Labor Day on September 1, 2025\n\ud83d\udc49 Midterm grades due by October 10, 2025\n\ud83d\udc49 Thanksgiving Break: November 24\u201328, 2025\n\ud83d\udc49 Campus closed on November 27\u201328, 2025\n\ud83d\udc49 Last day of classes: December 5, 2025\n\ud83d\udc49 Final exams: December 8\u201312, 2025\n\ud83c\udf93\ud83d\udc49 Fall Graduation: December 13, 2025"
+    },
+    {
+        "intentName": "UC_Intent_GreetingMessage",
+        "sampleUtterances": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "I need help",
+            "Can you help me?",
+            "I have a question",
+            "Can someone assist me?",
+            "Please help"
+        ],
+        "closingResponse": "Hello! \ud83d\udc4b I'm your student help desk assistant. I can help you with class schedules, library hours, IT support, and more. Just tell me what you need!"
+    },
+    {
+        "intentName": "UC_Intent_GetLibraryInfo",
+        "sampleUtterances": [
+            "Where is the library?",
+            "What are the library hours?",
+            "When does the library open?",
+            "How late is the library open?",
+            "I need info about the library",
+            "How do I contact the UC library?"
+        ],
+        "closingResponse": "Thank you for chatting with me. Here are the current library hours at the Grover M. Hermann Library, University of the Cumberlands for this academic term:\n\u2022 Monday \u2013 Thursday: 7:45 PM \u2013 10:00 PM\n\u2022 Friday: 7:45 AM \u2013 5:00 PM\n\u2022 Saturday: 11:00 AM \u2013 5:00 PM\n\u2022 Sunday: 3:00 PM \u2013 Closing time not specified\nFor the most accurate and up-to-date schedule (especially during holidays or breaks), I recommend checking the official UC Library website or the LibGuides page."
+    }
+]

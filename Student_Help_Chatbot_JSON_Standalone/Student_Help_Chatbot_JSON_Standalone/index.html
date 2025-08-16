@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- Make sure the page displays well on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Page title (appears in browser tab) -->
+  <title>Student Help Chatbot</title>
+
+  <!-- Link to the external CSS file for styling -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== MAIN CHATBOT CONTAINER ===== -->
+  <div class="chat-container">
+
+    <!-- ===== CHAT HEADER ===== -->
+    <div class="chat-header">
+      <!-- Chatbot title -->
+      <h2>Student Help Chatbot</h2>
+
+      <!-- "Clear Chat" button to reset the conversation -->
+      <button onclick="clearChat()" class="clear-btn">Clear Chat</button>
+    </div>
+
+    <!-- ===== QUICK ACTION BUTTONS ===== -->
+    <!-- These buttons insert example queries into the input box -->
+    <div class="chat-buttons">
+      <button onclick="setExample('Login Help')">Login Help</button>
+      <button onclick="setExample('Front Desk Help')">Front Desk Help</button>
+      <button onclick="setExample('Library Help')">Library Help</button>
+      <button onclick="setExample('Registration Help')">Registration Help</button>
+    </div>
+
+    <!-- ===== CHAT DISPLAY AREA ===== -->
+    <!-- This is where messages from the bot and user will appear -->
+    <div class="chat-box" id="chat-box">
+      <!-- Initial welcome message from the bot -->
+      <div class="bot-message">
+        Welcome! This is a simple chatbot for student help. You can ask your queries here.<br/>
+        How can I help you?
+      </div>
+    </div>
+
+    <!-- ===== INPUT AREA ===== -->
+    <div class="chat-input">
+      <!-- User text input box -->
+      <input type="text" id="user-input" placeholder="Type your question here..." />
+
+      <!-- Send button (➤) to send message to chatbot -->
+      <button onclick="sendMessage()">➤</button>
+    </div>
+  </div>
+
+  <!-- ===== SCRIPT FILE ===== -->
+  <!-- Link to the chatbot JavaScript logic -->
+  <script src="chatbot.js"></script>
+</body>
+</html>
