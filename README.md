@@ -17,6 +17,13 @@ It is designed to assist students with common queries related to university serv
 You can download the full project as a ZIP file here:  
 [➡️ Download Student_Help_Chatbot_JSON_Standalone.zip (https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_JSON_Standalone/archive/refs/heads/main.zip)
 
+### Intents & Utterances (Standalone JSON Repo)
+
+For testing purposes, you can download the complete list of intents, utterances, and closing responses from this JSON file:
+
+📥 [Download UC_Lex_All_Chatbot_Intents.json](https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_JSON_Standalone/raw/main/UC_Lex_All_Chatbot_Intents.json)
+
+
 ---
 
 ## ⚙️ Installation & Setup
