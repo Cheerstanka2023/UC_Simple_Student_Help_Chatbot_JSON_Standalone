@@ -32,7 +32,7 @@ For testing purposes, you can download the complete list of intents, utterances,
       git clone:    https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_JSON_Standalone.git
 
 2. /Open the project folder:
-       UC_Simple_Student_Help_Chatbot_AWSLexV2
+       UC_Simple_Student_Help_Chatbot_JSON_Standalone
 
 3. Run locally:
    Open index.html in your browser 
