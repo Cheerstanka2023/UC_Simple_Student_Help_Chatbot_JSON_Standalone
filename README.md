@@ -53,11 +53,6 @@ For testing purposes, you can download the complete list of intents, utterances,
   ├── intents.json # JSON data for responses
   ├── screenshots/ # Project screenshots
   └── README.md # Project documentation
-
-📷 Screenshots
-
-  Chatbot UI
-  JSON Intents
   
 👨‍🎓 Author
   Name: Tanka Chapagain
