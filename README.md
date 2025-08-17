@@ -28,11 +28,11 @@ For testing purposes, you can download the complete list of intents, utterances,
 
 ## ⚙️ Installation & Setup
 1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_JSON_Standalone.git
+   
+      git clone:    https://github.com/Cheerstanka2023/UC_Simple_Student_Help_Chatbot_JSON_Standalone.git
 
 2. /Open the project folder:
-   cd UC_Simple_Student_Help_Chatbot_AWSLexV2
+       UC_Simple_Student_Help_Chatbot_AWSLexV2
 
 3. Run locally:
    Open index.html in your browser 
